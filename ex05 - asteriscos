@@ -1,0 +1,9 @@
+const numero = 5;
+let asterisco = '';
+for (let eixoX = 1; eixoX <= numero; eixoX++) {
+  for (let eixoY = 1; eixoY <= numero; eixoY++) {
+    asterisco += '*';
+  }
+  console.log(asterisco);
+  asterisco = '';
+}
